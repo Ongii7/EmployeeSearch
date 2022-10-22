@@ -13,7 +13,7 @@ int main(void){
     extern const int EmployeeTableEntries;     
 
     PtrToEmployee matchPtr;  //Declaration
-    matchPtr = searchEmployeeByNumber(EmployeeTable, EmployeeTableEntries, 1045);
+    matchPtr = searchEmployeeByNumber(EmployeeTable, EmployeeTableEntries, 1001);
 
     //Example not found
     if (matchPtr != NULL)
